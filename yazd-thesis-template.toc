@@ -1,0 +1,67 @@
+\contentsline {chapter}{\numberline {1}معرفی سیستم حروف‌چینی علمی \lr {\LRE {\TeX }}}{1}{chapter.1}%
+\contentsline {section}{\numberline {1-1}مقدمه}{2}{section.1.1}%
+\contentsline {section}{\numberline {1-2}چرا \LRE {\TeX }یا \LRE {\LaTeX }؟}{4}{section.1.2}%
+\contentsline {section}{\numberline {1-3}ساختار فایل و روش استفاده}{9}{section.1.3}%
+\contentsline {section}{\numberline {1-4}منابع آموزشی و فایل‌های نمونه}{11}{section.1.4}%
+\contentsline {chapter}{\numberline {2}راهنمای نصب و استفاده از \LRE {\LaTeX }\ }{13}{chapter.2}%
+\contentsline {section}{\numberline {2-1}مقدمه}{14}{section.2.1}%
+\contentsline {section}{\numberline {2-2}نصب موتور اصلی \LRE {\TeX }\ }{16}{section.2.2}%
+\contentsline {subsection}{\numberline {2-2-1}نصب \lr {\LRE {\TeX }{}Live 2020}}{16}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2-2-2}نصب فونت‌های فارسی}{17}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2-3}سایر ابزارهای مفید}{18}{section.2.3}%
+\contentsline {subsection}{\numberline {2-3-1}ادیتور Notepad++}{18}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2-3-2}نرم‌افزار \lr {Sumatra PDF}}{20}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2-3-3}قالب پیشنهادیۀ دانشگاه یزد}{20}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2-3-4}کلاس پایان‌نامه دانشگاه یزد}{20}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2-3-5}تبدیل فایل‌های Word به \LRE {\LaTeX }\ و برعکس}{21}{subsection.2.3.5}%
+\contentsline {subsubsection}{تبدیل Word به \LRE {\LaTeX }}{21}{section*.2}%
+\contentsline {subsubsection}{تبدیل \LRE {\LaTeX }\ به Word}{22}{section*.3}%
+\contentsline {subsection}{\numberline {2-3-6}جزئیات فارسی نویسی در \lr {IPE Drawing}}{22}{subsection.2.3.6}%
+\contentsline {subsubsection}{فارسی نویسی با استفاده از بسته زیپرشن}{23}{section*.4}%
+\contentsline {section}{\numberline {2-4}منابع آموزشی و فایل‌های نمونه}{24}{section.2.4}%
+\contentsline {chapter}{\numberline {3}راهنمای استفاده از کلاس \lr {yazd-thesis}}{27}{chapter.3}%
+\contentsline {section}{\numberline {3-1}مقدمه}{28}{section.3.1}%
+\contentsline {section}{\numberline {3-2}این همه فایل؟!}{28}{section.3.2}%
+\contentsline {section}{\numberline {3-3}از کجا شروع کنم؟}{29}{section.3.3}%
+\contentsline {section}{\numberline {3-4}مطالب پایان‌نامه یا رساله را چطور بنویسم؟}{30}{section.3.4}%
+\contentsline {subsection}{\numberline {3-4-1}نوشتن فصل‌ها}{30}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3-4-2}محیط‌های شماره‌دار نظیر قضیه و لم}{31}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3-4-3}الگوریتم‌ها}{31}{subsection.3.4.3}%
+\contentsline {subsubsection}{مثال دوم}{32}{section*.5}%
+\contentsline {subsection}{\numberline {3-4-4}مراجع}{32}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3-4-5}واژه‌نامه فارسی به انگلیسی و برعکس}{34}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3-4-6}نمایه}{34}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3-4-7}تعریف نمادها و ایجاد فهرست نمادها}{34}{subsection.3.4.7}%
+\contentsline {section}{\numberline {3-5}چاپ فایل پی دی اف}{35}{section.3.5}%
+\contentsline {section}{\numberline {3-6}اگر سوالی داشتم، از کی بپرسم؟}{36}{section.3.6}%
+\contentsline {subsection}{\numberline {3-6-1}سوالات پرتکرار}{36}{subsection.3.6.1}%
+\contentsline {chapter}{\numberline {4}برخی نکات مفید}{37}{chapter.4}%
+\contentsline {section}{\numberline {4-1}فرایند تصویب پیشنهادیۀ پارسای تحصیلات تکمیلی}{38}{section.4.1}%
+\contentsline {section}{\numberline {4-2}دستورالعمل نحوه برگزاری جلسات دفاع }{40}{section.4.2}%
+\contentsline {subsection}{\numberline {4-2-1}هدف }{40}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4-2-2}الف) فرآیند دفاع از پایان‌نامه / رساله }{40}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4-2-3}ب) نکات قابل توجه در انجام فرایند دفاع قبل، حین و بعد از جلسه دفاع}{43}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4-2-4}ج) دستورالعمل نحوه برگزاری جلسات دفاع: }{44}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4-2-5}فرایند دفاع از پارسای تحصیلات تکمیلی}{45}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4-3}توصیه‌های تحصیلات تکمیلی دانشگاه در خصوص پارساها}{48}{section.4.3}%
+\contentsline {subsection}{\numberline {4-3-1} بخش‌های رساله }{48}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4-3-2} حروف‌نگاری (تایپ) رساله}{49}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4-3-3} شماره‌گذاری}{51}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4-3-4}منابع و مآخذ}{52}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4-3-5}شیوه‌نامه پردیس فنی و مهندسی}{53}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4-4}آماده‌سازی فایل جهت همانندجویی}{53}{section.4.4}%
+\contentsline {subsection}{\numberline {4-4-1} دستورالعمل ورود اطلاعات پایان‌نامه کارشناسی ارشد/ رساله دکتری توسط دانشجو در سامانه \lr {Irandoc}}{54}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4-4-2}برخی نکات نگارشی}{55}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4-5}چند راهکار ساده اما راهگشا!}{57}{section.4.5}%
+\contentsline {subsubsection}{راهکار اول: از replace استقاده کنید!}{57}{section*.6}%
+\contentsline {subsubsection}{راهکار دوم: استفاده از \lr {Inverse-Search}}{57}{section*.7}%
+\contentsline {subsubsection}{راهکار سوم: خطایابی و رفع خطا در بازه‌های زمانی کوتاه}{58}{section*.8}%
+\contentsline {subsubsection}{راهکار چهارم: گرفتن منظم نسخۀ پشتیبان}{58}{section*.9}%
+\contentsline {chapter}{\numberline {5}بحث، نتیجه‌گیری و پیشنهادها}{59}{chapter.5}%
+\contentsline {section}{\numberline {5-1} مقدمه}{60}{section.5.1}%
+\contentsline {subsection}{\numberline {5-1-1} بحث و جمع‌بندی }{60}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5-1-2} پيشنهادها}{60}{subsection.5.1.2}%
+\contentsline {chapter}{منابع و مآخذ}{61}{subsection.5.1.2}%
+\renewcommand {\cftchappresnum }{{ \titrfont \small \bfseries پیوست} } 
+\contentsline {chapter}{\numberline {آ}‌دستورالعمل ثبت پیشنهادیه پارسای تحصیلات تکمیلی }{67}{appendix.Alph1}%
+\contentsline {chapter}{واژه‌نامه انگلیسی به فارسی}{103}{section*.11}%

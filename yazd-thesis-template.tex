@@ -1,0 +1,165 @@
+% !TEX TS-program = XeLaTeX
+% اگر قصد نوشتن رساله دکتری را دارید، در خط زیر، گزینه 
+%msc 
+%را پاک کنید. کلیه تنظیمات لازم به طور خودکار اعمال می‌شود.
+% برای عدم نمایش هایپرلینک‌ها، گزینه 
+%hidelinks 
+%را در خط زیر (بین [ و ] با کاما اضافه کنید. نمونه در خط زیر آمده.
+%\documentclass[msc,hidelinks]{yazd-thesis}
+\documentclass[msc]{yazd-thesis}
+\usepackage{pst-barcode}
+\usepackage{pdfpages}
+\usepackage[algosection,lined,ruled,linesnumbered]{algorithm2e}%% بسته مربوط به الگوریتم
+%%%%%%%%%%%%%%%%%%%%%%%%
+ \SetAlgorithmName{الگوریتم}{الگوریتم}{لیست الگوریتم‌ها}
+\SetKwInput{KwIn}{ورودی}
+\SetKwInput{KwOut}{خروجی}
+\SetKw{KwRet}{برگردان}
+\SetKw{Return}{را~برگردان}
+\SetKw{ReturnZero}{برگرد}
+\SetKw{Start}{شروع}
+\SetKw{End}{پایان}
+\SetKw{Get}{را~بگیر}
+%\SetKwProg{Get}{}{را از ورودی دریافت کن}{دد}
+\SetKw{Print}{را~چاپ~کن}
+\SetKwFor{For}{برای}{..}{...}
+\SetKwIF{If}{ElseIf}{Else}{اگر}{آنگاه}{درغیراینصورت اگر}{درغیراینصورت}{پایان~اگر}
+%%%%%%%%%%%%%%%
+\usepackage[extrafootnotefeatures]{xepersian}
+\settextfont[Scale=1.32]{Yas}
+\setlatintextfont[Scale=1.3]{Times New Roman} 
+% فونت فرم صورت‌جلسه
+\defpersianfont\minutesfont[Scale=1.1]{B Nazanin}
+\defpersianfont\minutesfonttwelve[Scale=\scaletwelve]{B Nazanin}
+\defpersianfont\minutesfontthirteen[Scale=\scalethirteen]{B Nazanin}
+\defpersianfont\minutesfontfourteen[Scale=\scalefourteen]{B Nazanin}
+\defpersianfont\minutesfontfifteen[Scale=\scalefifteen]{B Nazanin}
+\defpersianfont\minutesfonttwenty[Scale=\scaletwenty]{B Nazanin}
+\defpersianfont\titrfont[Scale=1.5]{Titr}
+\setdigitfont[Scale=1.15]{Yas}
+\DeclareMathSizes{10.95}{12}{7.3}{5.5}
+\defpersianfont\ypfont[Scale=1]{Yas}
+\deflatinfont\yefont[Scale=1]{Times New Roman} 
+\SepMark{-}
+\renewcommand{\cftchappresnum}{{ \titrfont \bfseries فصل} }
+\renewcommand{\cftchapaftersnum}{:\ }
+%\renewcommand{\numwidth}{1cm}
+\renewcommand\cftchapnumwidth{1.7cm}
+
+\let\oldappendix\appendix
+\renewcommand{\appendix}{%
+  \oldappendix
+  \addtocontents{toc} % Update \cftchappresnum within the .toc
+    {\protect\renewcommand{\protect\cftchappresnum}{{ \titrfont \small \bfseries پیوست} } 
+	%{\protect\renewcommand{\protect\cftchapnumwidth}{{2.5cm}}}
+	}
+}
+%\newcommand{\listanswername}{List of Answers}
+%\newlistof[chapter]{answer}{ans}{\listanswername}
+\newcommand{\listofsymbolname}{\centerline{\huge  \bfseries فهرست نمادهای اختصاری و اختصارات  }}
+\newlistof[chapter]{symbol}{sym}{\listofsymbolname}
+%\setcounter{symdepth}{0}
+\addtocontents{symbol}{\cftpagenumbersoff{chapter}}
+\addtocontents{symbol}{\cftpagenumbersoff{section}}
+\newcommand{\symbols}[2]{%
+%\refstepcounter{symbol}
+%\par\noindent\textbf{#2 \dotfill  \thesymbols. #1}
+\addcontentsline{sym}{symbol}{#2 \dotfill #1}\par
+}
+
+\newlength{\mylen}
+
+\renewcommand{\cftfigpresnum}{\figurename\ }
+\renewcommand{\cftfigaftersnum}{:}
+\settowidth{\mylen}{\cftfigpresnum\cftfigaftersnum}
+\addtolength{\cftfignumwidth}{\mylen}
+
+\newlength{\mylentab}
+
+\renewcommand{\cfttabpresnum}{\tablename\ }
+\renewcommand{\cfttabaftersnum}{:}
+\settowidth{\mylentab}{\cfttabpresnum\cfttabaftersnum}
+\addtolength{\cfttabnumwidth}{\mylentab}
+
+%دستورات تبدیل پانویس‌ها به چندستونی. با به کاربردن هر کدام از این دستورات، پانویس‌ از آن دستور به بعد به تعداد ستون دستور مربوطه تغییر می‌کند.
+% دقث کنید که این تغییر تا دستور بعدی از این نوع پابرجا است و اگر برای صفحات بعدی می‌خواهید تعداد ستونها تغییر کند، باید دستور
+%مربوطه را بگذارید.
+%\normalfootnotes
+%\twocolumnfootnotes \threecolumnfootnotes \fourcolumnfootnotes
+%\fivecolumnfootnotes \sixcolumnfootnotes \sevencolumnfootnotes
+%\eightcolumnfootnotes \ninecolumnfootnotes \tencolumnfootnotes
+%\RTLcolumnfootnotes \LTRcolumnfootnotes
+%\paragraphfootnotes
+%\setLTRparagraphfootnotes \setRTLparagraphfootnotes
+\begin{document}
+\baselineskip=1cm
+\input{fainfo}
+\frontmatter
+\renewcommand{\contentsname}{\centerline{\huge فهرست مطالب} }
+\tableofcontents
+\renewcommand{\listfigurename}{\centerline{\huge فهرست شکل‌ها/نمودارها }}
+\renewcommand{\listtablename}{\centerline{\huge فهرست جدول‌ها }}
+%\renewcommand{\symheadingname}{\centering فهرست جدول‌ها }
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+\clearpage
+%\listofanswer
+\listofsymbol
+\clearpage
+%\listofsymbols [5em]
+ \pagestyle {fancy}
+ %\markboth{left head}{right head}
+ \renewcommand{\chaptermark}[1]{%
+\markboth{\chaptername\ \tartibi{chapter}:\ #1}{}}
+ \cfoot{\thepage}
+ \renewcommand{\headrulewidth}{0.9pt}
+ \fancyhead[RO]{\leftmark} %\rightmark}
+\fancyhead[RE]{\leftmark}
+
+
+
+\mainmatter
+%\renewcommand{\simplechapterdelim}{:}
+%\simplechapter[فصل]
+
+\include{chapter1}
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+\include{chapter5}
+\cleardoublepage
+%\renewcommand\bibname{  }
+%\renewcommand\refname{  }
+
+\thispagestyle{empty}
+.\vfill
+\addcontentsline{toc}{chapter}{منابع و مآخذ}
+\centerline{\huge \bf منابع و مآخذ}
+\vfill .
+%\latin %در صورتی که از قالب مراجع لاتین استفاده می‌شود، درصد ابتدای این خط حذف شود.
+\pagestyle {plain}
+\linespread{1.7}\selectfont
+\bibliographystyle{acm-fa}%{chicago-fa}%{plain-fa}%{asa-fa}%{ieeetr-fa}%{acm-fa}
+\bibliography{MyReferences}
+
+\cleardoublepage
+\persian
+\thispagestyle{empty}
+.\vfill
+\centerline{\huge \bf پیوست‌ها}
+\vfill .
+\pagestyle {fancy}
+\appendix
+\renewcommand\chaptername{ پیوست}
+\renewcommand{\cftchappresnum}{{ \titrfont \bfseries پیوست} }
+\renewcommand{\chaptermark}[1]{%
+\markboth{\chaptername\ \thechapter:\ #1}{}}
+ 
+\include{appendix1}
+%\include{dicfa2en}
+\include{dicen2fa}
+\printindex
+\input{eninfo}
+\end{document}
